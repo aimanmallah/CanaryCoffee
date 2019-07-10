@@ -6,7 +6,9 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 class Home extends React.Component {
   render() {
     return (
-      <section className="hero is-fullheight">
+      <section className="hero is-fullheight" style={{
+        backgroundImage: 'url(images/Coffeehero.jpg'
+      }}>
         <div className="hero-body">
           <div className="container has-text-centered">
             <hr className='top' />
