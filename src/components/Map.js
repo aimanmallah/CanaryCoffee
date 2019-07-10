@@ -19,7 +19,7 @@ class CoffeeMap extends React.Component {
     return (
 
       <section className='Map' style={{
-        backgroundImage: 'url(images/Background.jpg'
+        backgroundImage: 'images/Background.jpg'
       }}>
         <h3 className='title is-1'> Location </h3>
         <div className="columns is-multiline is-centered">
@@ -38,7 +38,7 @@ class CoffeeMap extends React.Component {
               <Marker className="marker"
                 coordinates={[this.state.longitude, this.state.latitude]}
                 anchor="bottom">
-                <img src={'../images/Map_Icon.png'}
+                <img src={'./images/Map_Icon.png'}
                 />
               </Marker>
             </Map>
