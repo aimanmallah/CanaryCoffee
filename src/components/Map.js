@@ -19,7 +19,7 @@ class CoffeeMap extends React.Component {
     return (
 
       <section className='Map' style={{
-        backgroundImage: 'url(../images/Background.jpg\')'
+        backgroundImage: 'url(./images/Background.jpg\')'
       }}>
         <h3 className='title is-1'> Location </h3>
         <div className="columns is-multiline is-centered">
