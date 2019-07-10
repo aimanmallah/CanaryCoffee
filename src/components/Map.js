@@ -18,7 +18,9 @@ class CoffeeMap extends React.Component {
   render() {
     return (
 
-      <section className='Map'>
+      <section className='Map' style={{
+        backgroundImage: 'url(\'../images/Background.jpg\')'
+      }}>
         <h3 className='title is-1'> Location </h3>
         <div className="columns is-multiline is-centered">
 

@@ -13,9 +13,8 @@ section.hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/Coffeehero.jpg);
+  // background-image: url(/images/Coffeehero.jpg);
   background-size: cover;
-  /* filter: brightness(75%); */
 }
 
 hr.top {
@@ -183,7 +182,7 @@ p.content-text {
 /* Map Section */
 
 section.Map {
-  background-image: url(./images/Background.jpg);
+  // background-image: url(/images/Background.jpg);
   background-size: cover;
   padding-bottom: 40px;
 }
