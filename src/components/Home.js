@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <section className="hero is-fullheight" style={{
-        backgroundImage: 'url(../images/Coffeehero.jpg)'
+        backgroundImage: 'url(\'../images/Coffeehero.jpg\')'
       }}>
         <div className="hero-body">
           <div className="container has-text-centered">
